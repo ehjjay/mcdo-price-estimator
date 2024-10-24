@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's Order System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-title">McDonald's Price Estimator</h1>
+    <div class="container">
+        <div class="menu">
+            <h2>McDonald's Menu</h2>
+            <div class="menu-items" id="menuItems"></div>
+        </div>
+        <div class="cart">
+            <h2>Your Order</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <h3>Total: ₱<span id="totalAmount">0.00</span></h3>
+                <button id="printReceipt">Print Receipt</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://mcdomenu.com.ph/" target="_blank">Powered by McDo Menu Prices</a>
+    </footer>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
